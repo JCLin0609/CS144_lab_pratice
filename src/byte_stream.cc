@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// que() is implemented by deque
+// que2() is implemented by string
 ByteStream::ByteStream(uint64_t capacity)
     : capacity_(capacity), closed_(false), err_(false), total_push_num(0),
       total_pop_num(0), // que(), // Method(deque)
